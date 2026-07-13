@@ -1,0 +1,127 @@
+.textCenter {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.minVh{
+    height: calc(100vh - 88.39px);
+    width: 100vw;
+    object-fit: cover;
+}
+.sliderArea{
+    position: relative;
+}
+.sliderContent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.sliderContent h2{
+   font-size: 5rem;
+   margin-bottom: 1rem;
+   line-height: 1;
+}
+.sliderContent p{
+   font-size: 2rem;
+   margin-bottom: 2rem;
+   line-height: 1.5;
+   padding: 0 10rem;
+}
+
+.sliderContent a {
+    background: #007BFF;
+    padding: 8px 30px;
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.case-studies, .our-work, .testimonialSection{
+    padding: 70px 10px;
+}
+.case-studies{
+    background-color: #007BFF;;
+}
+.ourService{
+    padding: 70px 0;
+}
+.our-gallery{
+    background-color: #007BFF;
+    padding: 10px 10px;
+}
+.readMore-section {
+    background-color: #007BFF;
+    padding: 70px 0px;
+}
+.our-work svg.MuiSvgIcon-root, .our-work svg.MuiSvgIcon-root {
+    background-color: #007BFF;
+    fill: #fff !important;
+    padding: 10px;
+    z-index: 9;
+}
+.slick-initialized .slick-slide > div {
+    margin: 0 10px !important;
+}
+.readMore-section .sectionTitle{
+    text-align: left;
+}
+.readMore-section .sectionTitle.afterTitle::after{
+    left: 0;
+    right: auto;
+}
+
+@media (max-width:767px){
+    .sliderContent p {
+        font-size: 01rem;
+        padding: 0 2rem;
+    }
+    .sliderContent h2 {
+        font-size: 2rem;
+    }
+    .sliderContent a {
+        padding: 6px 20px;
+        font-size: 1rem;
+    }
+    .sectionSubtitle {
+        padding: 0px 15px;
+    }
+}
+@media (min-width:768px) and (max-width:990px){
+    .sliderContent p {
+        font-size: 01rem;
+        padding: 0 2rem;
+    }
+    .sliderContent h2 {
+        font-size: 2rem;
+    }
+    .sliderContent a {
+        padding: 6px 20px;
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width:990px){
+    .container{
+        padding: 0 15px;
+        width: auto;
+    }
+}

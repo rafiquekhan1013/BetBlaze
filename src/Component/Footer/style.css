@@ -1,0 +1,8 @@
+footer#footerSection {
+    padding: 70px 0;
+    background-color: #007BFF;
+}
+footer#footerSection p {
+    color: #fff;
+    font-size: 20px;
+}

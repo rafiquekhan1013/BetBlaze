@@ -1,0 +1,178 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+html, body{ margin: 0; font-family: "Poppins";}
+
+.container{
+  max-width: 1280px;
+  margin:  0 auto;
+  left: 0;
+  right: 0;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  position: relative;
+  padding-bottom: 15px;
+  color: #FF6F00;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.orangeTitle {
+  color: #FF6F00 !important;
+}
+.blueTitle {
+  color: #007BFF !important;
+}
+.whiteTitle {
+  color: #fff !important;
+}
+
+.afterTitle:after {
+  position: absolute;
+  width: 180px;
+  height: 6px;
+  background: #FF6F00;
+  content: "";
+  bottom: 4px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.blueTitle:after {
+  background: #007BFF;
+}
+.orangeTitle:after {
+  background: #FF6F00;
+}
+.whiteTitle:after {
+  background: #fff;
+}
+.button {
+  padding: 10px 30px;
+  display: inline-block;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #fff;
+  background-color: #007BFF;
+}
+
+.orangeButton {
+  background: #FF6F00;
+}
+.blueButton {
+  background: #FF6F00;
+}
+
+.sectionSubtitle {
+  padding: 0 100px;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.mb-10{
+  margin-bottom: 10px !important;
+}
+.mb-20{
+  margin-bottom: 20px !important;
+}
+.mb-30{
+  margin-bottom: 30px !important;
+}
+.mb-40{
+  margin-bottom: 40px  !important;
+}
+.mb-50{
+  margin-bottom: 50px !important;
+}
+.mb-100{
+  margin-bottom: 100px !important;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.mt-40{
+  margin-top: 40px;
+}
+.mt-50{
+  margin-top: 50px !important;
+}
+
+
+.whiteFont{
+  color: #fff;
+}
+
+.font-20 {
+  font-size: 20px !important;
+}
+.font-24 {
+  font-size: 24px !important;
+}
+.font-28 {
+  font-size: 28px !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.textCenter{
+  text-align: center;
+}

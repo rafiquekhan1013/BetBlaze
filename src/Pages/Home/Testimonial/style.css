@@ -1,0 +1,41 @@
+.slider.animated p{
+    font-size: 30px;
+}
+.avtarSection div {
+    justify-content: center;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+}
+.carousel-status {
+    display: none !important;
+}
+.thumbs-wrapper {
+    display: none !important;
+}
+.testimonialSection button.control-arrow , button.control-arrow {
+    height: 40px;
+    top: 50% !important;
+    background: #007BFF !important;
+    border-radius: 30px;
+    padding: 3px 12px !important;
+    cursor: pointer !important;
+    opacity: 1 !important;
+}
+.slider-wrapper.axis-horizontal .slide {
+    padding: 0 60px;
+}
+.carousel .control-disabled.control-arrow{
+    display: block !important;
+    opacity: 0.3 !important;
+}
+.carousel.carousel-slider {
+    padding-bottom: 50px !important;
+}
+
+ul.control-dots {
+    bottom: 0px !important;
+}
+ul.control-dots li {
+    border: 1px solid #007BFF;
+}
